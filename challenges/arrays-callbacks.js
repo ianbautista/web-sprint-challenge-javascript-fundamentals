@@ -108,7 +108,8 @@ population from all the zoos using the .reduce() method. Remember the reduce met
 arguments: a callback (which itself takes two args), and an initial value for the count.
 
 */
-let populationTotal = 0;
+// let populationTotal = 0;
+let populationTotal = zooAnimals.reduce((total, i) => total + i.population, 0);
 console.log(populationTotal);
 
 // ==== Callbacks ====
