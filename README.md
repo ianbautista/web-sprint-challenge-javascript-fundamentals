@@ -63,7 +63,7 @@ Test your knowledge of advanced array methods and callbacks.
 
 This challenge takes a look at closures as well as scope.
 
-- [ ] Use the [closure.js](challenges/closure.js) link to get started. Read the instructions carefully!
+- [x] Use the [closure.js](challenges/closure.js) link to get started. Read the instructions carefully!
 
 #### Task C: Prototypes
 
