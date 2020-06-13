@@ -149,7 +149,7 @@ function multiply(num1, num2) {
 function greeting(firstName, lastName) {
 	return `Hello ${firstName} ${lastName}, nice to meet you!`;
 }
-// greet("christian","bautista")
+// greeting("christian","bautista")
 
 /* Step 3: Check your work by un-commenting the following calls to consume(): */
 console.log(consume(2, 2, add)); // 4
@@ -161,3 +161,11 @@ console.log(consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice t
 Stretch: If you haven't already, convert your array method callbacks into arrow functions.
 
 */
+
+const foodie = (a, b) => console.log(`${a}'s favorite food is ${b}`);
+const consume = (a, b, cb) => cb(a, b);
+consume("Christian", "pizza", foodie);
+
+const add = (num1, num2) => num1 + num2;
+const multiply = (num1, num2) => num1 * num2;
+const greeting = (firstName, lastName) => `Hello ${firstName} ${lastName}, nice to meet you!`;
