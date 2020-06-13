@@ -37,11 +37,10 @@ pattern: "jackal, asiatic". Log the result.
 
 */
 
-const lowCaseAnimalNames = []
-zooAnimals.map((i) => {
- lowCaseAnimalNames.push(`Name: ${i.animal_name.toLowerCase()}`)
- });
-console.log(lowCaseAnimalNames);
+const lowCaseAnimalNames = zooAnimals.map((i) => {
+  return `Name: ${i.animal_name.toLowerCase()}`
+  });
+ console.log(lowCaseAnimalNames);
 
 /* Request 3: .filter() 
 
