@@ -24,22 +24,23 @@ displayNames will be an array of strings, and each string should follow this pat
 
 */
 const displayNames = [];
-zooAnimals.forEach(function (){
-
+zooAnimals.forEach(function (i){
+displayNames.push(`Name: ${i.animal_name}, Scientific: ${i.scientific_name}`)
 });
-
-return `Name: Jackal, asiatic, Scientific: Canis aureus.`
 console.log(displayNames);
 
 /* Request 2: .map()
 
 The zoos need a list of all their animal's names (animal_name only) converted to lower case. 
 Using map, create a new array of strings named lowCaseAnimalNames, each string following this 
-pattern: "jackal, asiatic". Log the resut.
+pattern: "jackal, asiatic". Log the result.
 
 */
 
-const lowCaseAnimalNames
+const lowCaseAnimalNames = []
+zooAnimals.map((i) => {
+ lowCaseAnimalNames.push(`Name: ${i.animal_name.toLowerCase()}`)
+ });
 console.log(lowCaseAnimalNames);
 
 /* Request 3: .filter() 
