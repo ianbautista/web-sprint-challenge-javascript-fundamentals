@@ -57,7 +57,7 @@ Your finished project must include all of the following requirements:
 
 Test your knowledge of advanced array methods and callbacks.
 
-- [ ] Use the [arrays-callbacks.js](challenges/arrays-callbacks.js) link to get started. Read the instructions carefully!
+- [x] Use the [arrays-callbacks.js](challenges/arrays-callbacks.js) link to get started. Read the instructions carefully!
 
 #### Task B: Closure
 
